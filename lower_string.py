@@ -1,18 +1,16 @@
-t ="3141592"
+t = "3141592"
 p = "271"
 listt = list(t)
-print(listt)
 temp = []
-word = ""
-count = 0
 answer = 0
-for a in listt:
-    if count == len(p):
-        word = "".join(temp)
-        print(temp)
-        print(word)
-        count = 0
-    else: 
-        temp.append(a)
-        count += 1
-print(answer)
+while True:
+    for i in range(len(listt)):
+        if len(temp) == len(p):
+            word = "".join(temp)
+            print(word)
+            if int(p) >= int(word):
+                answer += 1
+            temp.pop(0)
+        elif len(temp) != len(p):
+            temp.append(listt[i])
+    break 
