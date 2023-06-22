@@ -1,6 +1,6 @@
 def solution(number):
     answer = []
-    count = 0
+    count = 0   
     for i in range(len(number)):
         for j in range(i+1,len(number)):
             for k in range(j+1,len(number)):    
