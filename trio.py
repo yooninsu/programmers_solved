@@ -11,3 +11,4 @@ def solution(number):
             count +=1
     return count
 
+print(sum(range(1,3)))
