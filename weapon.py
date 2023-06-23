@@ -1,5 +1,5 @@
 number = 1000
-limit = 30
+limit = 30  
 power =2
 knight = []
 count = 0
