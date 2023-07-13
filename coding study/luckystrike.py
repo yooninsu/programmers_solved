@@ -12,4 +12,4 @@ def luckystraight(number):
     else:
         print('READY')
     
-luckystraight(7755)
+luckystraight(751234574321)
